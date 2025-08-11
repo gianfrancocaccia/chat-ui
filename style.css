@@ -26,11 +26,11 @@ body {
   background-color: white;
   border: 2px solid #ccc;
   overflow-y: auto;
-  height: 100%;
-  width: 290px;
-  height: 583px;
   padding: 10px 0;
   box-sizing: border-box;
+  flex: 0 0 290px;
+  max-width: 100%;
+  height: auto;
 }
 
 
@@ -43,6 +43,7 @@ body {
   background-color: white;
   flex: 1;
   margin-top: 2px;
+  min-height: 0;
 }
 
 
