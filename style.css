@@ -37,9 +37,9 @@ body {
 .main-chat {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: auto;
+  height: auto;
   overflow: hidden;
-  height: 579px;
   background-color: white;
   flex: 1;
   margin-top: 2px;
